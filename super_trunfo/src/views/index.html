@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="../../public/styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../../public/images/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super Trunfo</h1>
+      
+        <button onclick="raffleCard()" id="btnRaffle">Sortear carta</button>
+      
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+              <div id="scoreboard"></div>
+              <div id="cardsQuantities"></div>
+              <div id="cards">
+                <div id="playerCard">
+                        <img src="../../public/images/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                <div id="machineCard" class="card"><img
+                            src="../../public/images/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>           
+              <button class="button-jogar" type="button" id="btnPlay" onclick="play()" disabled="false">Jogar</button>
+            </div>
+            <div id="result"></div>
+            <button type="button" id="btnNextMatch" onclick="nextMatch()" disabled="true">Proxima
+                rodada</button>
+        </form>
+    </div>
+    <script src="../../public/scripts/app.js"></script>
+</body>
+</html>
