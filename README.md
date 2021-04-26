@@ -17,5 +17,3 @@ Some modifications of original project that I made:
 - I downloaded all the images to not have dependencies with sites that can go offline and break my project.
 
 Ps.: At SuperTrunfo the characters are somewhat unusuals, because i made a joke with my family.
-
-Sorry my bad english, I am learning rsrs.
